@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Green Trust</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel&family=Montserrat:wght@200&family=Mooli&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--Cabeçalho-->
+    <header id="cabecalho">
+        <!--Logo-->
+        <div id="identidade-visual">
+            <img src="logo.png" alt="Logo da Green Trust">
+            <h1>Green Trust</h1>
+        </div>
+        <!--Menu-->
+        <nav id="menu-site">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE NÓS</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="conteudo">
+        <!--Apresentação-->
+        <section id="apresentacao">
+            <div id="escrito"> 
+                <div id="detalhe"></div>
+                <h2>SOLUÇÕES AMBIENTAIS PARA O SEU NEGÓCIO</h2>
+                <h3>Possibilitamos o desenvolvimento sustentável do seu negócio</h3>
+                <p>Em um mundo em constante movimento, nascemos com o propósito de contribuir para o desenvolvimento sustentável do planeta. <br>
+                Com nossa expertise técnica oferecemos soluções para que as empresas possam crescer e se desenvolver em harmonia com o meio ambiente. </p>
+            </div>
+            <div id="image"><img src="sustentavel.jpg">
+            </div>
+        </section>
+        <!--Serviços-->
+        <section id="servicos">
+            <h2>NOSSOS SERVIÇOS</h2>
+            <div class="descricao_servicos">
+                <div>
+                    <img src="licencas.webp">
+                    <h3>Licenciamento ambiental</h3>
+                    <p>Fazemos todo o processo de licenciamento ambiental, desde a fase de planejamento de um empreendimento até a expedição das licenças. </p>
+                </div>
+                <div>
+                    <img src="estudos.jpg">
+                    <h3>Estudos ambientais</h3>
+                    <p>Elaboramos estudos ambientais de acordo com o porte, localização e fase de licenciamento ambiental do empreendimento, obra ou atividade. </p>
+                </div>
+                <div>
+                    <img src="monitoramento.jpeg">
+                    <h3>Monitoramento ambiental</h3>
+                    <p>Realizamos o monitoramento ambiental através da coleta de dados, estudo e acompanhamento contínuo e sistemático das variáveis ambientais que exerçam influência sobre o meio. </p>
+                </div>
+            </div>
+        </section>
+        <!--Informações-->
+        <section id="acompanhamento">
+            <h2>ACOMPANHE SEU PROCESSO</h2>
+            <div class="descricao_acompanhamento">
+                <h3>Insira o número do protocolo</h3>
+                <input id="campo" type="text" name="protocolo">
+                <input id="enviar" type="submit" name="enviar" value="Enviar">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Desenvolvido por Kamila Luz - Senai/Entra21 - 2023</h3>
+    </footer>
     
 </body>
 </html>

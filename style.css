@@ -1,0 +1,188 @@
+/*CSS RESET */
+html, *, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* INÍCIO CABEÇALHO*/
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    background-color:#648F39;
+    padding: 4px 18px;
+    margin-bottom: 50px;
+}
+#cabecalho #identidade-visual {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+#cabecalho #identidade-visual img {
+    width: 70px;
+}
+#cabecalho #identidade-visual h1 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+#cabecalho nav ul {
+    list-style: none; 
+    display: flex; 
+}
+#cabecalho nav ul li a {
+    text-decoration: none; 
+    color: inherit;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 8px;
+}
+#cabecalho nav ul li a:hover {
+    color: #def7da;
+}
+
+/* APRESENTAÇÃO*/
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section#apresentacao {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 38px 18px;
+}
+section#apresentacao #escrito {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+section#apresentacao #escrito #detalhe {
+    width: 42px;
+    height: 10px;
+    background-color: #76b736;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+section#apresentacao #escrito h2 {
+    color: #6ba333;
+    font-size: 34px;
+    font-weight: 900;
+}
+section#apresentacao #escrito h3 {
+    font-size: 18px;
+}
+section#apresentacao #escrito p {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+section#apresentacao #image {
+    text-align: center;
+    width: 50%;
+}
+section#apresentacao #image img {
+    width: 350px;
+    border-radius: 25%;
+}
+
+
+/* SERVIÇOS*/
+section#servicos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 38px 18px;
+    margin-bottom: 50px;
+}
+section#servicos .descricao_servicos {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+section#servicos h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #6ba333;
+}
+section#servicos .descricao_servicos div {
+    width: 100%;
+}
+section#servicos .descricao_servicos div img {
+    width: 120px;
+    height: 124px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+section#servicos .descricao_servicos div h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+section#servicos .descricao_servicos div p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+/* ACOMPANHAMENTO DE INFORMAÇÕES*/
+section#acompanhamento {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+section#acompanhamento h2 {
+    font-size: 18px;
+    color: #6ba333;
+    margin-bottom: 30px;
+}
+section#acompanhamento .descricao_acompanhamento {
+    background-color: #76b736;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#acompanhamento .descricao_acompanhamento h3 {
+    font-size: 12pt;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+section#acompanhamento .descricao_acompanhamento #campo {
+    width: 400px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+}
+section#acompanhamento .descricao_acompanhamento #enviar {
+    background-color: #a0fb45; 
+    font-size: 14pt;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px;
+}
+
+/* RODAPÉ*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #648F39;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 10pt;
+}
